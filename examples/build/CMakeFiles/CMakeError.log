@@ -1,0 +1,35 @@
+Determining if the function sgetrf_single exists failed with the following output:
+Change Dir: /Users/zhoushiwei/Dropbox/dlib-18.10/examples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_4aacf" "-configuration" "Debug"
+=== BUILD TARGET cmTC_4aacf OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/zhoushiwei/Dropbox/dlib-18.10/examples/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4aacf.build/Objects-normal/x86_64
+write-file /Users/zhoushiwei/Dropbox/dlib-18.10/examples/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4aacf.build/Objects-normal/x86_64/cmTC_4aacf.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_4aacf.build/Objects-normal/x86_64/CheckFunctionExists.o /Applications/CMake.app/Contents/share/cmake-3.3/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/zhoushiwei/Dropbox/dlib-18.10/examples/build/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/zhoushiwei/Dropbox/dlib-18.10/examples/build/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/zhoushiwei/Dropbox/dlib-18.10/examples/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4aacf.build/DerivedSources/x86_64 -I/Users/zhoushiwei/Dropbox/dlib-18.10/examples/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4aacf.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/zhoushiwei/Dropbox/dlib-18.10/examples/build/CMakeFiles/CMakeTmp/Debug -DCHECK_FUNCTION_EXISTS=sgetrf_single -MMD -MT dependencies -MF /Users/zhoushiwei/Dropbox/dlib-18.10/examples/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4aacf.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/zhoushiwei/Dropbox/dlib-18.10/examples/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4aacf.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /Applications/CMake.app/Contents/share/cmake-3.3/Modules/CheckFunctionExists.c -o /Users/zhoushiwei/Dropbox/dlib-18.10/examples/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4aacf.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTC_4aacf normal x86_64
+    cd /Users/zhoushiwei/Dropbox/dlib-18.10/examples/build/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/zhoushiwei/Dropbox/dlib-18.10/examples/build/CMakeFiles/CMakeTmp/Debug -F/Users/zhoushiwei/Dropbox/dlib-18.10/examples/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/zhoushiwei/Dropbox/dlib-18.10/examples/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4aacf.build/Objects-normal/x86_64/cmTC_4aacf.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /usr/lib/libcblas.dylib -Xlinker -dependency_info -Xlinker /Users/zhoushiwei/Dropbox/dlib-18.10/examples/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4aacf.build/Objects-normal/x86_64/cmTC_4aacf_dependency_info.dat -o /Users/zhoushiwei/Dropbox/dlib-18.10/examples/build/CMakeFiles/CMakeTmp/Debug/cmTC_4aacf
+Undefined symbols for architecture x86_64:
+  "_sgetrf_single", referenced from:
+      _main in CheckFunctionExists.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Ld Debug/cmTC_4aacf normal x86_64
+(1 failure)
+
+

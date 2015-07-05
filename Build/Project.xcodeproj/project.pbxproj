@@ -1,0 +1,1051 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5F9D701255B24AD19FA5DB38 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 61CDB460AC1C49D3BA43C3F0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				AAFD765A30554F17B60B1B11 /* CMake Rules */,
+			);
+			dependencies = (
+				BD886C2AE8184E16A6B3F2A8 /* PBXTargetDependency */,
+				40CCD7A07A7B4682B1B3BC2E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F9D8D2C9C17841C5A9C4288A /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6BE05E95F8F3437CBC3F5E81 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				1EBD744FBDAD4FEEB58786F2 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03903B326F584DE09167CAEF /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdmerge.cpp */ = {isa = PBXBuildFile; fileRef = FAF6B0C2D27E41418747465D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdmerge.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0575F1B577C24F21A0FFE15B /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jmemnobs.cpp */ = {isa = PBXBuildFile; fileRef = F7C5DE14FEE54FC189EB32DC /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jmemnobs.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		063E968B6A594349851B14C2 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/widgets.cpp */ = {isa = PBXBuildFile; fileRef = 1557CC2C128A484BB093D3E2 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/widgets.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		07C7D1CD055B41E9B0289A8C /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jmemmgr.cpp */ = {isa = PBXBuildFile; fileRef = 6CEA59FD275841B49A85AA48 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jmemmgr.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0832DC58F4374C6D9F1FF04F /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/bit_stream/bit_stream_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = A61734A971F444909E6A423E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/bit_stream/bit_stream_kernel_1.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0A890AB354CE4C4AB48ADD78 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jquant2.cpp */ = {isa = PBXBuildFile; fileRef = 616351409B634CAB9F69EA55 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jquant2.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0B22A48D5D5B485A94E2E909 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/logger/logger_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = 3D052FC127F5464E897C7590 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/logger/logger_kernel_1.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		12F694FBDF044361BE437065 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcapimin.cpp */ = {isa = PBXBuildFile; fileRef = 23CD16088C6D47F6BC377110 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcapimin.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		15C5209109884D0F9C094C68 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/threads_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = 94E046AB45C043C180571F2E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/threads_kernel_1.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		15FEAB8452934C89BECE5555 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdcoefct.cpp */ = {isa = PBXBuildFile; fileRef = 79C96AF9C07A4E65BC712648 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdcoefct.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		18F4A1F34F6F42E28A7299FA /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcphuff.cpp */ = {isa = PBXBuildFile; fileRef = 02E93608DEDC4CEABCB746FB /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcphuff.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1A0463740E9345EEB19521C3 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcmainct.cpp */ = {isa = PBXBuildFile; fileRef = C8144F4C076E4554960E5BDE /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcmainct.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1A061A1C6B3842D7A7FB01A6 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/linker/linker_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = 6C0668120FA741069CA76FF5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/linker/linker_kernel_1.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1A63E026479B4070B44F6C77 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jerror.cpp */ = {isa = PBXBuildFile; fileRef = 5ED94D13686442CA876BDC3E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jerror.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1D00B4CE8D0D4C7A8F1052B9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/logger/extra_logger_headers.cpp */ = {isa = PBXBuildFile; fileRef = 2AEC3E06495849DAADD68DC5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/logger/extra_logger_headers.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		201CFC6FBCE3435EB9A30FD1 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/bigint/bigint_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = 5DB7773F07584AD8BACBBA4C /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/bigint/bigint_kernel_1.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2159B2C6B69640BF9CB6B792 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdphuff.cpp */ = {isa = PBXBuildFile; fileRef = 13492DB02E694587B347CA77 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdphuff.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		22DE5E9E77A84ABC8AB708BB /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcprepct.cpp */ = {isa = PBXBuildFile; fileRef = 27540D1B73C144409884A640 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcprepct.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		24D61B70A40B41AD957CDB74 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcomapi.cpp */ = {isa = PBXBuildFile; fileRef = 657F96441CB547FC82B72A1D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcomapi.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		290336107A3E4219A4B2C193 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/multithreaded_object_extension.cpp */ = {isa = PBXBuildFile; fileRef = 1235CFB38AA64AD78AD90577 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/multithreaded_object_extension.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2979F91CBC0B419DA1918481 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/stack_trace.cpp */ = {isa = PBXBuildFile; fileRef = 510DC910BA67497EB780A194 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/stack_trace.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2B50806ACF7F439BAB9328C7 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockets/sockets_kernel_2.cpp */ = {isa = PBXBuildFile; fileRef = 337B812CCE5146B48145BE52 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockets/sockets_kernel_2.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2DB9B91271724BBEABA4D2DC /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdatadst.cpp */ = {isa = PBXBuildFile; fileRef = 0C23FF3A40D444579091E562 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdatadst.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2E6AC6323C36435586D6671A /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jfdctfst.cpp */ = {isa = PBXBuildFile; fileRef = 704E252FA3B645AAB60BDF17 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jfdctfst.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		37F1C36A312D4F0BA743C3DD /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdmaster.cpp */ = {isa = PBXBuildFile; fileRef = F9E16A50D68647A7B5CD51EF /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdmaster.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3C9AFE6744034DDFBC401175 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jutils.cpp */ = {isa = PBXBuildFile; fileRef = 5FD2D3C9C02C43778D25EAAB /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jutils.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3D597A62CAF44D1485C0FB51 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/tokenizer/tokenizer_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = 23717E530E8349109BCEB823 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/tokenizer/tokenizer_kernel_1.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3DE0BA3907D34964A5562673 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/image_loader/png_loader.cpp */ = {isa = PBXBuildFile; fileRef = 3F4E8B4A2B2F4E0C8F85B519 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/image_loader/png_loader.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		428993FAEFFA44D6AED9F79A /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdsample.cpp */ = {isa = PBXBuildFile; fileRef = 969278F2A5B14ED9A4735D9D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdsample.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		428AF123C3B44CDEAF2519B5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcinit.cpp */ = {isa = PBXBuildFile; fileRef = 04EBA3FDF3C84DACB3738A8C /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcinit.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		44B75CA3A44C4A5787397D52 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp */ = {isa = PBXBuildFile; fileRef = 8C78F40DF86941BA861566E9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		47851D173DE046D4B334F18C /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcparam.cpp */ = {isa = PBXBuildFile; fileRef = B42F4BB007B542B78C85C0D5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcparam.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4CFEA7B27F824E2C84D920B4 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdatasrc.cpp */ = {isa = PBXBuildFile; fileRef = 40795E0C808C405C91090578 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdatasrc.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4F992914B4A441EABC901097 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jquant1.cpp */ = {isa = PBXBuildFile; fileRef = 3FEC7B8A8EFE4CE4AFE42B4F /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jquant1.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4FE8BE043D9B46D1A699C4E5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp */ = {isa = PBXBuildFile; fileRef = A14461B4AA4C4D33BF2A9815 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		50D4883559AD418587150645 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jccoefct.cpp */ = {isa = PBXBuildFile; fileRef = F83E295FBAA341929AD741FD /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jccoefct.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		53C8CAF5F85D4F05887636B0 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcmaster.cpp */ = {isa = PBXBuildFile; fileRef = 18D471D3EF2B48749CC33E99 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcmaster.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		55BC8345F76D4D54BD7C89C1 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jfdctint.cpp */ = {isa = PBXBuildFile; fileRef = 6F12B32EDFC44AF3AF0B72CA /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jfdctint.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		579BCDF3DE93468E9EC15EDE /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jidctflt.cpp */ = {isa = PBXBuildFile; fileRef = 381966D46BCB4069A0110E5E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jidctflt.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5B2B054E3D024FD39A852D59 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/dir_nav/dir_nav_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = 52CC93B4365E47E9B55CBAB7 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/dir_nav/dir_nav_kernel_1.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5F366A938631412B812948DD /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = ECFBAEC4004D47C389974BB2 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		60E0136E586E4995BC0F4BE6 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/threaded_object_extension.cpp */ = {isa = PBXBuildFile; fileRef = 8B07560DAABB41E09FFD5077 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/threaded_object_extension.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6198B2A25EA24A1DA4E044E3 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdcolor.cpp */ = {isa = PBXBuildFile; fileRef = 830CC81F979C4044958E165F /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdcolor.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6240A12F69C6457B8C470F35 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/threads_kernel_shared.cpp */ = {isa = PBXBuildFile; fileRef = 9F3318E4908940388D342C08 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/threads_kernel_shared.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		693F509EA67C4969A58377C1 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2FD2E555E35B4A828809F285 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		6E2533886E0B408FA67F3971 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/thread_pool_extension.cpp */ = {isa = PBXBuildFile; fileRef = 080762FEA784418B963795D9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/thread_pool_extension.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6EAABA9ACAA4483DA0F687C9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/logger/logger_config_file.cpp */ = {isa = PBXBuildFile; fileRef = E1EF6C04EEE041558D89D4F6 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/logger/logger_config_file.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6FD6266C9408410EAAFFF376 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/dir_nav/dir_nav_kernel_2.cpp */ = {isa = PBXBuildFile; fileRef = 3DC8DC46D3E5461888BEA86A /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/dir_nav/dir_nav_kernel_2.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		74634B0619474BA8962F9D09 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jidctint.cpp */ = {isa = PBXBuildFile; fileRef = A22F9B77939F42DFAA023BE1 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jidctint.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		762E30282A5F42D0A910B405 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jccolor.cpp */ = {isa = PBXBuildFile; fileRef = 8AA6228CE5CD4448B3C9F761 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jccolor.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		763EC901A43C426B98464358 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_core/gui_core_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = E307B1DCEB974A2EA6DFC8E9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_core/gui_core_kernel_1.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		794AEB97E0274B31BEF57403 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcmarker.cpp */ = {isa = PBXBuildFile; fileRef = CCB74B2A29B042EF92D62B31 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcmarker.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		798C5F7AD4864DECAB76B5E2 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcdctmgr.cpp */ = {isa = PBXBuildFile; fileRef = 76D6CB0361534A799D336D84 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcdctmgr.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		79DF798694894861B7D04D6F /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockets/sockets_extensions.cpp */ = {isa = PBXBuildFile; fileRef = 7CE45995FFBD484C85082AB5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockets/sockets_extensions.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7B4E4FC6D4DF4ABE84100E37 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jidctfst.cpp */ = {isa = PBXBuildFile; fileRef = 8FD91574867A4F30A13B1B05 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jidctfst.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7BE130F9EA894A4C9DA2EB57 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/server/server_iostream.cpp */ = {isa = PBXBuildFile; fileRef = 212B470754A04277B28D6128 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/server/server_iostream.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7EB7A8A4C63742B5B67F646A /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jddctmgr.cpp */ = {isa = PBXBuildFile; fileRef = 91C43E221BA7470599A7189D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jddctmgr.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8290F6F9BBE1484C8BF318BB /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/threads_kernel_2.cpp */ = {isa = PBXBuildFile; fileRef = 619C07CE407C4C63ADCBD614 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/threads_kernel_2.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		88C07588B9F84BCCB2670939 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdapistd.cpp */ = {isa = PBXBuildFile; fileRef = 673D77D45A0C46259C998DE0 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdapistd.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8F9ADEA21F264E1A84680C8B /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/image_saver/save_png.cpp */ = {isa = PBXBuildFile; fileRef = 6F2470CBADAF4978B6467F47 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/image_saver/save_png.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		95076162556549688A9D3C27 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/server/server_kernel.cpp */ = {isa = PBXBuildFile; fileRef = 9F62471BBDB64997913EE44D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/server/server_kernel.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9B126B7C46B342C49CDF9D98 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/base_widgets.cpp */ = {isa = PBXBuildFile; fileRef = 3407D0AD63484F8FA854806A /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/base_widgets.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9F9EFBC91A044B6C9B7141D2 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/image_saver/save_jpeg.cpp */ = {isa = PBXBuildFile; fileRef = 45EDFA39D3394DE687BCB1E5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/image_saver/save_jpeg.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A225A75B2FA640C8A74A3B7A /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdhuff.cpp */ = {isa = PBXBuildFile; fileRef = 5487D7A64362499EA9904987 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdhuff.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A2F8C131292A465387CECFC9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcapistd.cpp */ = {isa = PBXBuildFile; fileRef = 376EF46D466E438A95944215 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcapistd.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A4AD2A5F39A64BBCA0D7B608 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdapimin.cpp */ = {isa = PBXBuildFile; fileRef = 60F7F73E09CF438CB847F69B /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdapimin.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AA7A380E4FD14F16ACAC121C /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/drawable.cpp */ = {isa = PBXBuildFile; fileRef = 5ABE0B3ED8CC47289BD05EA0 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/drawable.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AC485D7813D448FABC1336DB /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdmainct.cpp */ = {isa = PBXBuildFile; fileRef = 22244056D29C46168558C9C3 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdmainct.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		ACCF70A43CBB42E8B5D721EE /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/unicode.cpp */ = {isa = PBXBuildFile; fileRef = 52E23B9F310642D58596EF88 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/unicode.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		ADD30D8D3CD44946823AC37B /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/dir_nav/dir_nav_extensions.cpp */ = {isa = PBXBuildFile; fileRef = 40EB45801DFB4E03BA8B27AC /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/dir_nav/dir_nav_extensions.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B283895558E0418E91154146 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/data_io/image_dataset_metadata.cpp */ = {isa = PBXBuildFile; fileRef = 786B2208B7324D71A2C7F3F8 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/data_io/image_dataset_metadata.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B89ED39936364D75A472740C /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jidctred.cpp */ = {isa = PBXBuildFile; fileRef = C7ED8959983F4B638B5CD1A5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jidctred.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BF72CAB815BE49A6A24FACD9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/md5/md5_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = 57BB818FA3E34350B2339E30 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/md5/md5_kernel_1.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C45B984856904FCA90B6099E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdinput.cpp */ = {isa = PBXBuildFile; fileRef = 48210B6D9A2C44EDAAECE437 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdinput.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C5CFACCFD2354654BC1B860C /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/bigint/bigint_kernel_2.cpp */ = {isa = PBXBuildFile; fileRef = 953251350398408998406CE8 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/bigint/bigint_kernel_2.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C5F45F3900484E3C987DB2D5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/server/server_http.cpp */ = {isa = PBXBuildFile; fileRef = BE15E26C8E32494DA12C0B33 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/server/server_http.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C9064509FA3249EC8F39AD2E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = 8B5934B212B84984B91D7BF6 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CAB67C2D801E4536928EF405 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/canvas_drawing.cpp */ = {isa = PBXBuildFile; fileRef = 3A00EE79F61748CC9210CDF7 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/canvas_drawing.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CCAF3C54C58B4E46B5631DF3 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/misc_api/misc_api_kernel_2.cpp */ = {isa = PBXBuildFile; fileRef = C60095A5887A45D0B6BCB9E9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/misc_api/misc_api_kernel_2.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CEAEC567147E4FDBB0D79ACA /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/style.cpp */ = {isa = PBXBuildFile; fileRef = 988B92B4FFB840C9AF0BEF1E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/style.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D229296FBB6049228D6BFC5D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/misc_api/misc_api_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = 12619F992B384CCEBE6C93F1 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/misc_api/misc_api_kernel_1.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D44083DE1D2B488BAD0CC0F1 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp */ = {isa = PBXBuildFile; fileRef = A2129D979DCF471EABD1AA13 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D98B1702524A477DB03CEB4D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/fonts.cpp */ = {isa = PBXBuildFile; fileRef = 2F62F3CE3FAD4215AEF1DD34 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/fonts.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DA4627BCB98B458CB71AD79C /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/base64/base64_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = 083916C2FCD74F21A339AF07 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/base64/base64_kernel_1.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DA4FE00B9D6E4240B1986368 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdmarker.cpp */ = {isa = PBXBuildFile; fileRef = AD37503E08F443518CAF129D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdmarker.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DBAEC9AF588B445396E585D3 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdpostct.cpp */ = {isa = PBXBuildFile; fileRef = D392D211A14D4339898808E1 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdpostct.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DD486650CB3E4787A9D4372D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/image_loader/jpeg_loader.cpp */ = {isa = PBXBuildFile; fileRef = EE9F3368E9DA4628BF2F09F8 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/image_loader/jpeg_loader.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E0BE5D59BF544B7FAF4E1C24 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_core/gui_core_kernel_2.cpp */ = {isa = PBXBuildFile; fileRef = 337C2E3CCA0D4277BB8D27F0 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_core/gui_core_kernel_2.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E3472FA0D2744F7A88AE43E0 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jfdctflt.cpp */ = {isa = PBXBuildFile; fileRef = 4D96312C5722467AB2E05F52 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jfdctflt.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E3801019D57E4486867F0B7A /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/timer/timer.cpp */ = {isa = PBXBuildFile; fileRef = 552967BBA15344A6A521AA07 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/timer/timer.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EA58F4A67E9447C8BC0BA5A4 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockets/sockets_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = 82DC2FAEDCF24C838E3FE62E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockets/sockets_kernel_1.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EC1C93106F034E61812DE0F3 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/bsp/bsp.cpp */ = {isa = PBXBuildFile; fileRef = D8689B086BBE40CDBCEC7361 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/bsp/bsp.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EE6806E44CEA4D548A20BEBE /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcsample.cpp */ = {isa = PBXBuildFile; fileRef = 5D3DAE7ED9784D54B00ECB83 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcsample.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EF9274BCA85C4E688B67C4CB /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockstreambuf/sockstreambuf.cpp */ = {isa = PBXBuildFile; fileRef = F1C74BF1A5214D1F8D3FEDC9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockstreambuf/sockstreambuf.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F75311A9429443B2842F651D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jchuff.cpp */ = {isa = PBXBuildFile; fileRef = 4D6CFF1C989B4DAAA46B21FE /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jchuff.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1848FE8F97DA42FA9CB81C70 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		23B75AD2AAD74354B5062985 = {
+			isa = PBXBuildStyle;
+		};
+		5C3FE66321B146D9A5AD6F2D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		BCD35D81DF224BD1B320C029 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		D7F7CA73311B4A23952660E9 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		56D01517C4D64E46BA04F711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B845DED0CC14BE789E1049A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9D8D2C9C17841C5A9C4288A;
+			remoteInfo = ZERO_CHECK;
+		};
+		B5E85EE44B384D2382D1E067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B845DED0CC14BE789E1049A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57262EA4929D462E888E3F5D;
+			remoteInfo = dlib;
+		};
+		B8ECE0A2ED7C42EEB3CA02A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B845DED0CC14BE789E1049A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9D8D2C9C17841C5A9C4288A;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E93608DEDC4CEABCB746FB /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcphuff.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcphuff.cpp; path = external/libjpeg/jcphuff.cpp; sourceTree = SOURCE_ROOT; };
+		04EBA3FDF3C84DACB3738A8C /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcinit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcinit.cpp; path = external/libjpeg/jcinit.cpp; sourceTree = SOURCE_ROOT; };
+		080762FEA784418B963795D9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/thread_pool_extension.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = thread_pool_extension.cpp; path = threads/thread_pool_extension.cpp; sourceTree = SOURCE_ROOT; };
+		083916C2FCD74F21A339AF07 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/base64/base64_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = base64_kernel_1.cpp; path = base64/base64_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		0C23FF3A40D444579091E562 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdatadst.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdatadst.cpp; path = external/libjpeg/jdatadst.cpp; sourceTree = SOURCE_ROOT; };
+		1235CFB38AA64AD78AD90577 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/multithreaded_object_extension.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = multithreaded_object_extension.cpp; path = threads/multithreaded_object_extension.cpp; sourceTree = SOURCE_ROOT; };
+		12619F992B384CCEBE6C93F1 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/misc_api/misc_api_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = misc_api_kernel_1.cpp; path = misc_api/misc_api_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		13492DB02E694587B347CA77 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdphuff.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdphuff.cpp; path = external/libjpeg/jdphuff.cpp; sourceTree = SOURCE_ROOT; };
+		1557CC2C128A484BB093D3E2 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/widgets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = widgets.cpp; path = gui_widgets/widgets.cpp; sourceTree = SOURCE_ROOT; };
+		17D1ABD35C054FC285EEA178 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		18D471D3EF2B48749CC33E99 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcmaster.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcmaster.cpp; path = external/libjpeg/jcmaster.cpp; sourceTree = SOURCE_ROOT; };
+		212B470754A04277B28D6128 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/server/server_iostream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = server_iostream.cpp; path = server/server_iostream.cpp; sourceTree = SOURCE_ROOT; };
+		22244056D29C46168558C9C3 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdmainct.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdmainct.cpp; path = external/libjpeg/jdmainct.cpp; sourceTree = SOURCE_ROOT; };
+		23717E530E8349109BCEB823 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/tokenizer/tokenizer_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tokenizer_kernel_1.cpp; path = tokenizer/tokenizer_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		23CD16088C6D47F6BC377110 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcapimin.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcapimin.cpp; path = external/libjpeg/jcapimin.cpp; sourceTree = SOURCE_ROOT; };
+		27540D1B73C144409884A640 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcprepct.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcprepct.cpp; path = external/libjpeg/jcprepct.cpp; sourceTree = SOURCE_ROOT; };
+		2AEC3E06495849DAADD68DC5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/logger/extra_logger_headers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = extra_logger_headers.cpp; path = logger/extra_logger_headers.cpp; sourceTree = SOURCE_ROOT; };
+		2F62F3CE3FAD4215AEF1DD34 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/fonts.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fonts.cpp; path = gui_widgets/fonts.cpp; sourceTree = SOURCE_ROOT; };
+		2FD2E555E35B4A828809F285 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		337B812CCE5146B48145BE52 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockets/sockets_kernel_2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sockets_kernel_2.cpp; path = sockets/sockets_kernel_2.cpp; sourceTree = SOURCE_ROOT; };
+		337C2E3CCA0D4277BB8D27F0 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_core/gui_core_kernel_2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gui_core_kernel_2.cpp; path = gui_core/gui_core_kernel_2.cpp; sourceTree = SOURCE_ROOT; };
+		3407D0AD63484F8FA854806A /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/base_widgets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = base_widgets.cpp; path = gui_widgets/base_widgets.cpp; sourceTree = SOURCE_ROOT; };
+		376EF46D466E438A95944215 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcapistd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcapistd.cpp; path = external/libjpeg/jcapistd.cpp; sourceTree = SOURCE_ROOT; };
+		381966D46BCB4069A0110E5E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jidctflt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jidctflt.cpp; path = external/libjpeg/jidctflt.cpp; sourceTree = SOURCE_ROOT; };
+		3A00EE79F61748CC9210CDF7 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/canvas_drawing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = canvas_drawing.cpp; path = gui_widgets/canvas_drawing.cpp; sourceTree = SOURCE_ROOT; };
+		3D052FC127F5464E897C7590 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/logger/logger_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = logger_kernel_1.cpp; path = logger/logger_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		3DC8DC46D3E5461888BEA86A /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/dir_nav/dir_nav_kernel_2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dir_nav_kernel_2.cpp; path = dir_nav/dir_nav_kernel_2.cpp; sourceTree = SOURCE_ROOT; };
+		3F4E8B4A2B2F4E0C8F85B519 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/image_loader/png_loader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = png_loader.cpp; path = image_loader/png_loader.cpp; sourceTree = SOURCE_ROOT; };
+		3FEC7B8A8EFE4CE4AFE42B4F /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jquant1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jquant1.cpp; path = external/libjpeg/jquant1.cpp; sourceTree = SOURCE_ROOT; };
+		40795E0C808C405C91090578 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdatasrc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdatasrc.cpp; path = external/libjpeg/jdatasrc.cpp; sourceTree = SOURCE_ROOT; };
+		40EB45801DFB4E03BA8B27AC /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/dir_nav/dir_nav_extensions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dir_nav_extensions.cpp; path = dir_nav/dir_nav_extensions.cpp; sourceTree = SOURCE_ROOT; };
+		45EDFA39D3394DE687BCB1E5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/image_saver/save_jpeg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = save_jpeg.cpp; path = image_saver/save_jpeg.cpp; sourceTree = SOURCE_ROOT; };
+		48210B6D9A2C44EDAAECE437 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdinput.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdinput.cpp; path = external/libjpeg/jdinput.cpp; sourceTree = SOURCE_ROOT; };
+		4D6CFF1C989B4DAAA46B21FE /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jchuff.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jchuff.cpp; path = external/libjpeg/jchuff.cpp; sourceTree = SOURCE_ROOT; };
+		4D96312C5722467AB2E05F52 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jfdctflt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jfdctflt.cpp; path = external/libjpeg/jfdctflt.cpp; sourceTree = SOURCE_ROOT; };
+		510DC910BA67497EB780A194 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/stack_trace.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stack_trace.cpp; path = stack_trace.cpp; sourceTree = SOURCE_ROOT; };
+		52CC93B4365E47E9B55CBAB7 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/dir_nav/dir_nav_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dir_nav_kernel_1.cpp; path = dir_nav/dir_nav_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		52E23B9F310642D58596EF88 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/unicode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unicode.cpp; path = unicode/unicode.cpp; sourceTree = SOURCE_ROOT; };
+		5487D7A64362499EA9904987 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdhuff.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdhuff.cpp; path = external/libjpeg/jdhuff.cpp; sourceTree = SOURCE_ROOT; };
+		552967BBA15344A6A521AA07 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/timer/timer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timer.cpp; path = timer/timer.cpp; sourceTree = SOURCE_ROOT; };
+		57BB818FA3E34350B2339E30 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/md5/md5_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = md5_kernel_1.cpp; path = md5/md5_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		5ABE0B3ED8CC47289BD05EA0 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/drawable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = drawable.cpp; path = gui_widgets/drawable.cpp; sourceTree = SOURCE_ROOT; };
+		5D3DAE7ED9784D54B00ECB83 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcsample.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcsample.cpp; path = external/libjpeg/jcsample.cpp; sourceTree = SOURCE_ROOT; };
+		5DB7773F07584AD8BACBBA4C /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/bigint/bigint_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bigint_kernel_1.cpp; path = bigint/bigint_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		5ED94D13686442CA876BDC3E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jerror.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jerror.cpp; path = external/libjpeg/jerror.cpp; sourceTree = SOURCE_ROOT; };
+		5FD2D3C9C02C43778D25EAAB /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jutils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jutils.cpp; path = external/libjpeg/jutils.cpp; sourceTree = SOURCE_ROOT; };
+		60F7F73E09CF438CB847F69B /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdapimin.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdapimin.cpp; path = external/libjpeg/jdapimin.cpp; sourceTree = SOURCE_ROOT; };
+		616351409B634CAB9F69EA55 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jquant2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jquant2.cpp; path = external/libjpeg/jquant2.cpp; sourceTree = SOURCE_ROOT; };
+		619C07CE407C4C63ADCBD614 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/threads_kernel_2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = threads_kernel_2.cpp; path = threads/threads_kernel_2.cpp; sourceTree = SOURCE_ROOT; };
+		657F96441CB547FC82B72A1D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcomapi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcomapi.cpp; path = external/libjpeg/jcomapi.cpp; sourceTree = SOURCE_ROOT; };
+		673D77D45A0C46259C998DE0 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdapistd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdapistd.cpp; path = external/libjpeg/jdapistd.cpp; sourceTree = SOURCE_ROOT; };
+		6C0668120FA741069CA76FF5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/linker/linker_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = linker_kernel_1.cpp; path = linker/linker_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		6CEA59FD275841B49A85AA48 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jmemmgr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jmemmgr.cpp; path = external/libjpeg/jmemmgr.cpp; sourceTree = SOURCE_ROOT; };
+		6F12B32EDFC44AF3AF0B72CA /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jfdctint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jfdctint.cpp; path = external/libjpeg/jfdctint.cpp; sourceTree = SOURCE_ROOT; };
+		6F2470CBADAF4978B6467F47 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/image_saver/save_png.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = save_png.cpp; path = image_saver/save_png.cpp; sourceTree = SOURCE_ROOT; };
+		704E252FA3B645AAB60BDF17 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jfdctfst.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jfdctfst.cpp; path = external/libjpeg/jfdctfst.cpp; sourceTree = SOURCE_ROOT; };
+		76D6CB0361534A799D336D84 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcdctmgr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcdctmgr.cpp; path = external/libjpeg/jcdctmgr.cpp; sourceTree = SOURCE_ROOT; };
+		786B2208B7324D71A2C7F3F8 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/data_io/image_dataset_metadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = image_dataset_metadata.cpp; path = data_io/image_dataset_metadata.cpp; sourceTree = SOURCE_ROOT; };
+		79C96AF9C07A4E65BC712648 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdcoefct.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdcoefct.cpp; path = external/libjpeg/jdcoefct.cpp; sourceTree = SOURCE_ROOT; };
+		7CE45995FFBD484C85082AB5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockets/sockets_extensions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sockets_extensions.cpp; path = sockets/sockets_extensions.cpp; sourceTree = SOURCE_ROOT; };
+		82DC2FAEDCF24C838E3FE62E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockets/sockets_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sockets_kernel_1.cpp; path = sockets/sockets_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		830CC81F979C4044958E165F /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdcolor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdcolor.cpp; path = external/libjpeg/jdcolor.cpp; sourceTree = SOURCE_ROOT; };
+		8AA6228CE5CD4448B3C9F761 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jccolor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jccolor.cpp; path = external/libjpeg/jccolor.cpp; sourceTree = SOURCE_ROOT; };
+		8B07560DAABB41E09FFD5077 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/threaded_object_extension.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = threaded_object_extension.cpp; path = threads/threaded_object_extension.cpp; sourceTree = SOURCE_ROOT; };
+		8B5934B212B84984B91D7BF6 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = entropy_encoder_kernel_1.cpp; path = entropy_encoder/entropy_encoder_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		8C78F40DF86941BA861566E9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sockstreambuf_unbuffered.cpp; path = sockstreambuf/sockstreambuf_unbuffered.cpp; sourceTree = SOURCE_ROOT; };
+		8FD91574867A4F30A13B1B05 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jidctfst.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jidctfst.cpp; path = external/libjpeg/jidctfst.cpp; sourceTree = SOURCE_ROOT; };
+		91BA0C8D00B943B3B91D9D60 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		91C43E221BA7470599A7189D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jddctmgr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jddctmgr.cpp; path = external/libjpeg/jddctmgr.cpp; sourceTree = SOURCE_ROOT; };
+		94E046AB45C043C180571F2E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/threads_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = threads_kernel_1.cpp; path = threads/threads_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		953251350398408998406CE8 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/bigint/bigint_kernel_2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bigint_kernel_2.cpp; path = bigint/bigint_kernel_2.cpp; sourceTree = SOURCE_ROOT; };
+		969278F2A5B14ED9A4735D9D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdsample.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdsample.cpp; path = external/libjpeg/jdsample.cpp; sourceTree = SOURCE_ROOT; };
+		988B92B4FFB840C9AF0BEF1E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/style.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = style.cpp; path = gui_widgets/style.cpp; sourceTree = SOURCE_ROOT; };
+		9F3318E4908940388D342C08 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/threads_kernel_shared.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = threads_kernel_shared.cpp; path = threads/threads_kernel_shared.cpp; sourceTree = SOURCE_ROOT; };
+		9F62471BBDB64997913EE44D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/server/server_kernel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = server_kernel.cpp; path = server/server_kernel.cpp; sourceTree = SOURCE_ROOT; };
+		A14461B4AA4C4D33BF2A9815 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = entropy_decoder_kernel_2.cpp; path = entropy_decoder/entropy_decoder_kernel_2.cpp; sourceTree = SOURCE_ROOT; };
+		A2129D979DCF471EABD1AA13 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = entropy_encoder_kernel_2.cpp; path = entropy_encoder/entropy_encoder_kernel_2.cpp; sourceTree = SOURCE_ROOT; };
+		A22F9B77939F42DFAA023BE1 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jidctint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jidctint.cpp; path = external/libjpeg/jidctint.cpp; sourceTree = SOURCE_ROOT; };
+		A61734A971F444909E6A423E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/bit_stream/bit_stream_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bit_stream_kernel_1.cpp; path = bit_stream/bit_stream_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		AD37503E08F443518CAF129D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdmarker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdmarker.cpp; path = external/libjpeg/jdmarker.cpp; sourceTree = SOURCE_ROOT; };
+		B42F4BB007B542B78C85C0D5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcparam.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcparam.cpp; path = external/libjpeg/jcparam.cpp; sourceTree = SOURCE_ROOT; };
+		BE15E26C8E32494DA12C0B33 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/server/server_http.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = server_http.cpp; path = server/server_http.cpp; sourceTree = SOURCE_ROOT; };
+		C60095A5887A45D0B6BCB9E9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/misc_api/misc_api_kernel_2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = misc_api_kernel_2.cpp; path = misc_api/misc_api_kernel_2.cpp; sourceTree = SOURCE_ROOT; };
+		C7ED8959983F4B638B5CD1A5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jidctred.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jidctred.cpp; path = external/libjpeg/jidctred.cpp; sourceTree = SOURCE_ROOT; };
+		C8144F4C076E4554960E5BDE /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcmainct.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcmainct.cpp; path = external/libjpeg/jcmainct.cpp; sourceTree = SOURCE_ROOT; };
+		CA146731CFFF4BE585E0DC00 /* dlib */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libdlib.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB74B2A29B042EF92D62B31 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcmarker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcmarker.cpp; path = external/libjpeg/jcmarker.cpp; sourceTree = SOURCE_ROOT; };
+		D392D211A14D4339898808E1 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdpostct.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdpostct.cpp; path = external/libjpeg/jdpostct.cpp; sourceTree = SOURCE_ROOT; };
+		D8689B086BBE40CDBCEC7361 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/bsp/bsp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bsp.cpp; path = bsp/bsp.cpp; sourceTree = SOURCE_ROOT; };
+		E1EF6C04EEE041558D89D4F6 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/logger/logger_config_file.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = logger_config_file.cpp; path = logger/logger_config_file.cpp; sourceTree = SOURCE_ROOT; };
+		E307B1DCEB974A2EA6DFC8E9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_core/gui_core_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gui_core_kernel_1.cpp; path = gui_core/gui_core_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		ECFBAEC4004D47C389974BB2 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = entropy_decoder_kernel_1.cpp; path = entropy_decoder/entropy_decoder_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		EE9F3368E9DA4628BF2F09F8 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/image_loader/jpeg_loader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jpeg_loader.cpp; path = image_loader/jpeg_loader.cpp; sourceTree = SOURCE_ROOT; };
+		F1C74BF1A5214D1F8D3FEDC9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockstreambuf/sockstreambuf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sockstreambuf.cpp; path = sockstreambuf/sockstreambuf.cpp; sourceTree = SOURCE_ROOT; };
+		F7C5DE14FEE54FC189EB32DC /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jmemnobs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jmemnobs.cpp; path = external/libjpeg/jmemnobs.cpp; sourceTree = SOURCE_ROOT; };
+		F83E295FBAA341929AD741FD /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jccoefct.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jccoefct.cpp; path = external/libjpeg/jccoefct.cpp; sourceTree = SOURCE_ROOT; };
+		F9E16A50D68647A7B5CD51EF /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdmaster.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdmaster.cpp; path = external/libjpeg/jdmaster.cpp; sourceTree = SOURCE_ROOT; };
+		FAF6B0C2D27E41418747465D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdmerge.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdmerge.cpp; path = external/libjpeg/jdmerge.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		077918FB70F147D486C14C8D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				083916C2FCD74F21A339AF07 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/base64/base64_kernel_1.cpp */,
+				5DB7773F07584AD8BACBBA4C /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/bigint/bigint_kernel_1.cpp */,
+				953251350398408998406CE8 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/bigint/bigint_kernel_2.cpp */,
+				A61734A971F444909E6A423E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/bit_stream/bit_stream_kernel_1.cpp */,
+				D8689B086BBE40CDBCEC7361 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/bsp/bsp.cpp */,
+				786B2208B7324D71A2C7F3F8 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/data_io/image_dataset_metadata.cpp */,
+				40EB45801DFB4E03BA8B27AC /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/dir_nav/dir_nav_extensions.cpp */,
+				52CC93B4365E47E9B55CBAB7 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/dir_nav/dir_nav_kernel_1.cpp */,
+				3DC8DC46D3E5461888BEA86A /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/dir_nav/dir_nav_kernel_2.cpp */,
+				ECFBAEC4004D47C389974BB2 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp */,
+				A14461B4AA4C4D33BF2A9815 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp */,
+				8B5934B212B84984B91D7BF6 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp */,
+				A2129D979DCF471EABD1AA13 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp */,
+				23CD16088C6D47F6BC377110 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcapimin.cpp */,
+				376EF46D466E438A95944215 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcapistd.cpp */,
+				F83E295FBAA341929AD741FD /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jccoefct.cpp */,
+				8AA6228CE5CD4448B3C9F761 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jccolor.cpp */,
+				76D6CB0361534A799D336D84 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcdctmgr.cpp */,
+				4D6CFF1C989B4DAAA46B21FE /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jchuff.cpp */,
+				04EBA3FDF3C84DACB3738A8C /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcinit.cpp */,
+				C8144F4C076E4554960E5BDE /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcmainct.cpp */,
+				CCB74B2A29B042EF92D62B31 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcmarker.cpp */,
+				18D471D3EF2B48749CC33E99 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcmaster.cpp */,
+				657F96441CB547FC82B72A1D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcomapi.cpp */,
+				B42F4BB007B542B78C85C0D5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcparam.cpp */,
+				02E93608DEDC4CEABCB746FB /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcphuff.cpp */,
+				27540D1B73C144409884A640 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcprepct.cpp */,
+				5D3DAE7ED9784D54B00ECB83 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcsample.cpp */,
+				60F7F73E09CF438CB847F69B /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdapimin.cpp */,
+				673D77D45A0C46259C998DE0 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdapistd.cpp */,
+				0C23FF3A40D444579091E562 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdatadst.cpp */,
+				40795E0C808C405C91090578 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdatasrc.cpp */,
+				79C96AF9C07A4E65BC712648 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdcoefct.cpp */,
+				830CC81F979C4044958E165F /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdcolor.cpp */,
+				91C43E221BA7470599A7189D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jddctmgr.cpp */,
+				5487D7A64362499EA9904987 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdhuff.cpp */,
+				48210B6D9A2C44EDAAECE437 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdinput.cpp */,
+				22244056D29C46168558C9C3 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdmainct.cpp */,
+				AD37503E08F443518CAF129D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdmarker.cpp */,
+				F9E16A50D68647A7B5CD51EF /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdmaster.cpp */,
+				FAF6B0C2D27E41418747465D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdmerge.cpp */,
+				13492DB02E694587B347CA77 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdphuff.cpp */,
+				D392D211A14D4339898808E1 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdpostct.cpp */,
+				969278F2A5B14ED9A4735D9D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdsample.cpp */,
+				5ED94D13686442CA876BDC3E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jerror.cpp */,
+				4D96312C5722467AB2E05F52 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jfdctflt.cpp */,
+				704E252FA3B645AAB60BDF17 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jfdctfst.cpp */,
+				6F12B32EDFC44AF3AF0B72CA /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jfdctint.cpp */,
+				381966D46BCB4069A0110E5E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jidctflt.cpp */,
+				8FD91574867A4F30A13B1B05 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jidctfst.cpp */,
+				A22F9B77939F42DFAA023BE1 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jidctint.cpp */,
+				C7ED8959983F4B638B5CD1A5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jidctred.cpp */,
+				6CEA59FD275841B49A85AA48 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jmemmgr.cpp */,
+				F7C5DE14FEE54FC189EB32DC /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jmemnobs.cpp */,
+				3FEC7B8A8EFE4CE4AFE42B4F /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jquant1.cpp */,
+				616351409B634CAB9F69EA55 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jquant2.cpp */,
+				5FD2D3C9C02C43778D25EAAB /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jutils.cpp */,
+				E307B1DCEB974A2EA6DFC8E9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_core/gui_core_kernel_1.cpp */,
+				337C2E3CCA0D4277BB8D27F0 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_core/gui_core_kernel_2.cpp */,
+				3407D0AD63484F8FA854806A /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/base_widgets.cpp */,
+				3A00EE79F61748CC9210CDF7 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/canvas_drawing.cpp */,
+				5ABE0B3ED8CC47289BD05EA0 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/drawable.cpp */,
+				2F62F3CE3FAD4215AEF1DD34 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/fonts.cpp */,
+				988B92B4FFB840C9AF0BEF1E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/style.cpp */,
+				1557CC2C128A484BB093D3E2 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/widgets.cpp */,
+				EE9F3368E9DA4628BF2F09F8 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/image_loader/jpeg_loader.cpp */,
+				3F4E8B4A2B2F4E0C8F85B519 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/image_loader/png_loader.cpp */,
+				45EDFA39D3394DE687BCB1E5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/image_saver/save_jpeg.cpp */,
+				6F2470CBADAF4978B6467F47 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/image_saver/save_png.cpp */,
+				6C0668120FA741069CA76FF5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/linker/linker_kernel_1.cpp */,
+				2AEC3E06495849DAADD68DC5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/logger/extra_logger_headers.cpp */,
+				E1EF6C04EEE041558D89D4F6 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/logger/logger_config_file.cpp */,
+				3D052FC127F5464E897C7590 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/logger/logger_kernel_1.cpp */,
+				57BB818FA3E34350B2339E30 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/md5/md5_kernel_1.cpp */,
+				12619F992B384CCEBE6C93F1 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/misc_api/misc_api_kernel_1.cpp */,
+				C60095A5887A45D0B6BCB9E9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/misc_api/misc_api_kernel_2.cpp */,
+				BE15E26C8E32494DA12C0B33 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/server/server_http.cpp */,
+				212B470754A04277B28D6128 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/server/server_iostream.cpp */,
+				9F62471BBDB64997913EE44D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/server/server_kernel.cpp */,
+				7CE45995FFBD484C85082AB5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockets/sockets_extensions.cpp */,
+				82DC2FAEDCF24C838E3FE62E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockets/sockets_kernel_1.cpp */,
+				337B812CCE5146B48145BE52 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockets/sockets_kernel_2.cpp */,
+				F1C74BF1A5214D1F8D3FEDC9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockstreambuf/sockstreambuf.cpp */,
+				8C78F40DF86941BA861566E9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp */,
+				510DC910BA67497EB780A194 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/stack_trace.cpp */,
+				1235CFB38AA64AD78AD90577 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/multithreaded_object_extension.cpp */,
+				080762FEA784418B963795D9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/thread_pool_extension.cpp */,
+				8B07560DAABB41E09FFD5077 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/threaded_object_extension.cpp */,
+				94E046AB45C043C180571F2E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/threads_kernel_1.cpp */,
+				619C07CE407C4C63ADCBD614 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/threads_kernel_2.cpp */,
+				9F3318E4908940388D342C08 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/threads_kernel_shared.cpp */,
+				552967BBA15344A6A521AA07 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/timer/timer.cpp */,
+				23717E530E8349109BCEB823 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/tokenizer/tokenizer_kernel_1.cpp */,
+				52E23B9F310642D58596EF88 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/unicode.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1AE674F644ED4EBC935F25C1 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DEACB169DD3643BCAE86F277 /* CMake Rules */,
+				17D1ABD35C054FC285EEA178 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		1BD5F4F9D98241CC880232B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2390B9CA54A9491891D33E05 /* dlib */ = {
+			isa = PBXGroup;
+			children = (
+				077918FB70F147D486C14C8D /* Source Files */,
+				2FD2E555E35B4A828809F285 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/CMakeLists.txt */,
+			);
+			name = dlib;
+			sourceTree = "<group>";
+		};
+		2D27752CE41543CFBA23CB6A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		35B5C2EE307E402BB57BE162 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				2D27752CE41543CFBA23CB6A /* CMake Rules */,
+				91BA0C8D00B943B3B91D9D60 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		752884207E7A49BC964AA83D = {
+			isa = PBXGroup;
+			children = (
+				7C14FFA77A17485FAB168C80 /* Sources */,
+				1BD5F4F9D98241CC880232B7 /* Resources */,
+				8BF2F7C9DFEA493A9363D9C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C14FFA77A17485FAB168C80 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1AE674F644ED4EBC935F25C1 /* ALL_BUILD */,
+				35B5C2EE307E402BB57BE162 /* ZERO_CHECK */,
+				2390B9CA54A9491891D33E05 /* dlib */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		8BF2F7C9DFEA493A9363D9C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA146731CFFF4BE585E0DC00 /* dlib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEACB169DD3643BCAE86F277 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57262EA4929D462E888E3F5D /* dlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8CC6CBEDEF84AC785F19EB0 /* Build configuration list for PBXNativeTarget "dlib" */;
+			buildPhases = (
+				25C565DF23A64B1381176983 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB6789FF039F4D5E895FA87F /* PBXTargetDependency */,
+			);
+			name = dlib;
+			productName = dlib;
+			productReference = CA146731CFFF4BE585E0DC00 /* dlib */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B845DED0CC14BE789E1049A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 5ECD91360E914BFFB696160B /* Build configuration list for PBXProject "Project" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				5C3FE66321B146D9A5AD6F2D /* Debug */,
+				1848FE8F97DA42FA9CB81C70 /* Release */,
+				D7F7CA73311B4A23952660E9 /* MinSizeRel */,
+				BCD35D81DF224BD1B320C029 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 752884207E7A49BC964AA83D;
+			projectDirPath = "/Users/zhoushiwei/Dropbox/dlib-18.10/dlib";
+			projectRoot = "";
+			targets = (
+				5F9D701255B24AD19FA5DB38 /* ALL_BUILD */,
+				F9D8D2C9C17841C5A9C4288A /* ZERO_CHECK */,
+				57262EA4929D462E888E3F5D /* dlib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06AA57E14A90444A83B0AC9F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		1EBD744FBDAD4FEEB58786F2 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/zhoushiwei/Dropbox/dlib-18.10/build -f /Users/zhoushiwei/Dropbox/dlib-18.10/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		6D9F5BB3DC8F4213A056F0DB = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AAFD765A30554F17B60B1B11 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/zhoushiwei/Dropbox/dlib-18.10/build -f /Users/zhoushiwei/Dropbox/dlib-18.10/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25C565DF23A64B1381176983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4627BCB98B458CB71AD79C /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/base64/base64_kernel_1.cpp */,
+				201CFC6FBCE3435EB9A30FD1 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/bigint/bigint_kernel_1.cpp */,
+				C5CFACCFD2354654BC1B860C /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/bigint/bigint_kernel_2.cpp */,
+				0832DC58F4374C6D9F1FF04F /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/bit_stream/bit_stream_kernel_1.cpp */,
+				EC1C93106F034E61812DE0F3 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/bsp/bsp.cpp */,
+				B283895558E0418E91154146 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/data_io/image_dataset_metadata.cpp */,
+				ADD30D8D3CD44946823AC37B /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/dir_nav/dir_nav_extensions.cpp */,
+				5B2B054E3D024FD39A852D59 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/dir_nav/dir_nav_kernel_1.cpp */,
+				6FD6266C9408410EAAFFF376 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/dir_nav/dir_nav_kernel_2.cpp */,
+				5F366A938631412B812948DD /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp */,
+				4FE8BE043D9B46D1A699C4E5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp */,
+				C9064509FA3249EC8F39AD2E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp */,
+				D44083DE1D2B488BAD0CC0F1 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp */,
+				12F694FBDF044361BE437065 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcapimin.cpp */,
+				A2F8C131292A465387CECFC9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcapistd.cpp */,
+				50D4883559AD418587150645 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jccoefct.cpp */,
+				762E30282A5F42D0A910B405 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jccolor.cpp */,
+				798C5F7AD4864DECAB76B5E2 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcdctmgr.cpp */,
+				F75311A9429443B2842F651D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jchuff.cpp */,
+				428AF123C3B44CDEAF2519B5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcinit.cpp */,
+				1A0463740E9345EEB19521C3 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcmainct.cpp */,
+				794AEB97E0274B31BEF57403 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcmarker.cpp */,
+				53C8CAF5F85D4F05887636B0 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcmaster.cpp */,
+				24D61B70A40B41AD957CDB74 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcomapi.cpp */,
+				47851D173DE046D4B334F18C /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcparam.cpp */,
+				18F4A1F34F6F42E28A7299FA /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcphuff.cpp */,
+				22DE5E9E77A84ABC8AB708BB /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcprepct.cpp */,
+				EE6806E44CEA4D548A20BEBE /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jcsample.cpp */,
+				A4AD2A5F39A64BBCA0D7B608 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdapimin.cpp */,
+				88C07588B9F84BCCB2670939 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdapistd.cpp */,
+				2DB9B91271724BBEABA4D2DC /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdatadst.cpp */,
+				4CFEA7B27F824E2C84D920B4 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdatasrc.cpp */,
+				15FEAB8452934C89BECE5555 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdcoefct.cpp */,
+				6198B2A25EA24A1DA4E044E3 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdcolor.cpp */,
+				7EB7A8A4C63742B5B67F646A /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jddctmgr.cpp */,
+				A225A75B2FA640C8A74A3B7A /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdhuff.cpp */,
+				C45B984856904FCA90B6099E /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdinput.cpp */,
+				AC485D7813D448FABC1336DB /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdmainct.cpp */,
+				DA4FE00B9D6E4240B1986368 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdmarker.cpp */,
+				37F1C36A312D4F0BA743C3DD /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdmaster.cpp */,
+				03903B326F584DE09167CAEF /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdmerge.cpp */,
+				2159B2C6B69640BF9CB6B792 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdphuff.cpp */,
+				DBAEC9AF588B445396E585D3 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdpostct.cpp */,
+				428993FAEFFA44D6AED9F79A /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jdsample.cpp */,
+				1A63E026479B4070B44F6C77 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jerror.cpp */,
+				E3472FA0D2744F7A88AE43E0 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jfdctflt.cpp */,
+				2E6AC6323C36435586D6671A /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jfdctfst.cpp */,
+				55BC8345F76D4D54BD7C89C1 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jfdctint.cpp */,
+				579BCDF3DE93468E9EC15EDE /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jidctflt.cpp */,
+				7B4E4FC6D4DF4ABE84100E37 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jidctfst.cpp */,
+				74634B0619474BA8962F9D09 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jidctint.cpp */,
+				B89ED39936364D75A472740C /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jidctred.cpp */,
+				07C7D1CD055B41E9B0289A8C /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jmemmgr.cpp */,
+				0575F1B577C24F21A0FFE15B /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jmemnobs.cpp */,
+				4F992914B4A441EABC901097 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jquant1.cpp */,
+				0A890AB354CE4C4AB48ADD78 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jquant2.cpp */,
+				3C9AFE6744034DDFBC401175 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/external/libjpeg/jutils.cpp */,
+				763EC901A43C426B98464358 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_core/gui_core_kernel_1.cpp */,
+				E0BE5D59BF544B7FAF4E1C24 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_core/gui_core_kernel_2.cpp */,
+				9B126B7C46B342C49CDF9D98 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/base_widgets.cpp */,
+				CAB67C2D801E4536928EF405 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/canvas_drawing.cpp */,
+				AA7A380E4FD14F16ACAC121C /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/drawable.cpp */,
+				D98B1702524A477DB03CEB4D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/fonts.cpp */,
+				CEAEC567147E4FDBB0D79ACA /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/style.cpp */,
+				063E968B6A594349851B14C2 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/gui_widgets/widgets.cpp */,
+				DD486650CB3E4787A9D4372D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/image_loader/jpeg_loader.cpp */,
+				3DE0BA3907D34964A5562673 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/image_loader/png_loader.cpp */,
+				9F9EFBC91A044B6C9B7141D2 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/image_saver/save_jpeg.cpp */,
+				8F9ADEA21F264E1A84680C8B /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/image_saver/save_png.cpp */,
+				1A061A1C6B3842D7A7FB01A6 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/linker/linker_kernel_1.cpp */,
+				1D00B4CE8D0D4C7A8F1052B9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/logger/extra_logger_headers.cpp */,
+				6EAABA9ACAA4483DA0F687C9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/logger/logger_config_file.cpp */,
+				0B22A48D5D5B485A94E2E909 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/logger/logger_kernel_1.cpp */,
+				BF72CAB815BE49A6A24FACD9 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/md5/md5_kernel_1.cpp */,
+				D229296FBB6049228D6BFC5D /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/misc_api/misc_api_kernel_1.cpp */,
+				CCAF3C54C58B4E46B5631DF3 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/misc_api/misc_api_kernel_2.cpp */,
+				C5F45F3900484E3C987DB2D5 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/server/server_http.cpp */,
+				7BE130F9EA894A4C9DA2EB57 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/server/server_iostream.cpp */,
+				95076162556549688A9D3C27 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/server/server_kernel.cpp */,
+				79DF798694894861B7D04D6F /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockets/sockets_extensions.cpp */,
+				EA58F4A67E9447C8BC0BA5A4 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockets/sockets_kernel_1.cpp */,
+				2B50806ACF7F439BAB9328C7 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockets/sockets_kernel_2.cpp */,
+				EF9274BCA85C4E688B67C4CB /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockstreambuf/sockstreambuf.cpp */,
+				44B75CA3A44C4A5787397D52 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp */,
+				2979F91CBC0B419DA1918481 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/stack_trace.cpp */,
+				290336107A3E4219A4B2C193 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/multithreaded_object_extension.cpp */,
+				6E2533886E0B408FA67F3971 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/thread_pool_extension.cpp */,
+				60E0136E586E4995BC0F4BE6 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/threaded_object_extension.cpp */,
+				15C5209109884D0F9C094C68 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/threads_kernel_1.cpp */,
+				8290F6F9BBE1484C8BF318BB /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/threads_kernel_2.cpp */,
+				6240A12F69C6457B8C470F35 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/threads/threads_kernel_shared.cpp */,
+				E3801019D57E4486867F0B7A /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/timer/timer.cpp */,
+				3D597A62CAF44D1485C0FB51 /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/tokenizer/tokenizer_kernel_1.cpp */,
+				ACCF70A43CBB42E8B5D721EE /* /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/unicode.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40CCD7A07A7B4682B1B3BC2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57262EA4929D462E888E3F5D /* dlib */;
+			targetProxy = B5E85EE44B384D2382D1E067 /* PBXContainerItemProxy */;
+		};
+		BD886C2AE8184E16A6B3F2A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9D8D2C9C17841C5A9C4288A /* ZERO_CHECK */;
+			targetProxy = 56D01517C4D64E46BA04F711 /* PBXContainerItemProxy */;
+		};
+		CB6789FF039F4D5E895FA87F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9D8D2C9C17841C5A9C4288A /* ZERO_CHECK */;
+			targetProxy = B8ECE0A2ED7C42EEB3CA02A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07234FF11CA54A8A8B207ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", DLIB_JPEG_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/local/include, /usr, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -DDLIB_PNG_SUPPORT -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK    -DENABLE_ASSERTS  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhoushiwei/Dropbox/dlib-18.10/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		13E45BB475D54D44B8879EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/zhoushiwei/Dropbox/dlib-18.10/build/build";
+			};
+			name = Debug;
+		};
+		1A10A0BD72824896ACAFC999 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", DLIB_JPEG_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/local/include, /usr, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhoushiwei/Dropbox/dlib-18.10/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		2FDEB432A9E343D7A11BEBB5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", DLIB_JPEG_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/local/include, /usr, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -DDLIB_PNG_SUPPORT -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK        -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhoushiwei/Dropbox/dlib-18.10/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		3B5826A356CE4631AEDAD575 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", DLIB_JPEG_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/local/include, /usr, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -DDLIB_PNG_SUPPORT -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK     -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhoushiwei/Dropbox/dlib-18.10/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		4CACAFFB7CD641E5A7DB22ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", DLIB_JPEG_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/local/include, /usr, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhoushiwei/Dropbox/dlib-18.10/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		651CA4DFDA8B4D4E82206191 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", DLIB_JPEG_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/local/include, /usr, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhoushiwei/Dropbox/dlib-18.10/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		773918119F4F4D62941BA6B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", DLIB_JPEG_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/local/include, /usr, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhoushiwei/Dropbox/dlib-18.10/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		89C03A7BA48A4ED9BC108DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", DLIB_JPEG_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/local/include, /usr, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhoushiwei/Dropbox/dlib-18.10/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		94A0857319884A5690A2BDE8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", DLIB_JPEG_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/local/include, /usr, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhoushiwei/Dropbox/dlib-18.10/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		976E9262207B499793CD28E4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/zhoushiwei/Dropbox/dlib-18.10/build/build";
+			};
+			name = MinSizeRel;
+		};
+		AFFFFA4E1B324330894F0A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", DLIB_JPEG_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/local/include, /usr, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhoushiwei/Dropbox/dlib-18.10/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		BA609C69236B441EA6A43DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/zhoushiwei/Dropbox/dlib-18.10/build/build";
+			};
+			name = Release;
+		};
+		D184853B57224480A6DE535D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/zhoushiwei/Dropbox/dlib-18.10/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		DF9C00D9D0AB410C87856708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", DLIB_JPEG_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/local/include, /usr, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -DDLIB_PNG_SUPPORT -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK     -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhoushiwei/Dropbox/dlib-18.10/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		E324A535BC244A9DAA999EF0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", DLIB_JPEG_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/local/include, /usr, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zhoushiwei/Dropbox/dlib-18.10/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ECD91360E914BFFB696160B /* Build configuration list for PBXProject "Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E45BB475D54D44B8879EA1 /* Debug */,
+				BA609C69236B441EA6A43DD5 /* Release */,
+				976E9262207B499793CD28E4 /* MinSizeRel */,
+				D184853B57224480A6DE535D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		61CDB460AC1C49D3BA43C3F0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773918119F4F4D62941BA6B9 /* Debug */,
+				89C03A7BA48A4ED9BC108DE5 /* Release */,
+				651CA4DFDA8B4D4E82206191 /* MinSizeRel */,
+				94A0857319884A5690A2BDE8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6BE05E95F8F3437CBC3F5E81 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFFFA4E1B324330894F0A11 /* Debug */,
+				4CACAFFB7CD641E5A7DB22ED /* Release */,
+				E324A535BC244A9DAA999EF0 /* MinSizeRel */,
+				1A10A0BD72824896ACAFC999 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B8CC6CBEDEF84AC785F19EB0 /* Build configuration list for PBXNativeTarget "dlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07234FF11CA54A8A8B207ABD /* Debug */,
+				DF9C00D9D0AB410C87856708 /* Release */,
+				3B5826A356CE4631AEDAD575 /* MinSizeRel */,
+				2FDEB432A9E343D7A11BEBB5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B845DED0CC14BE789E1049A /* Project object */;
+}

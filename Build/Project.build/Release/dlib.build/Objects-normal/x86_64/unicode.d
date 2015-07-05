@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/unicode.cpp \
+  /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/unicode.h \
+  /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/../uintn.h \
+  /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/../assert.h \
+  /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/../config.h \
+  /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/../error.h \
+  /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/../stack_trace.h \
+  /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/../algs.h \
+  /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/../platform.h \
+  /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/../windows_magic.h \
+  /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/../noncopyable.h \
+  /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/../enable_if.h \
+  /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/../numeric_constants.h \
+  /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/../memory_manager_stateless/memory_manager_stateless_kernel_1.h \
+  /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/../memory_manager_stateless/memory_manager_stateless_kernel_abstract.h \
+  /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/unicode_abstract.h \
+  /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/../string.h \
+  /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/../string/string.h \
+  /Users/zhoushiwei/Dropbox/dlib-18.10/dlib/unicode/../string/string_abstract.h

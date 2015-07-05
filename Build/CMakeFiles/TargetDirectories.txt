@@ -1,0 +1,3 @@
+/Users/zhoushiwei/Dropbox/dlib-18.10/build/CMakeFiles/ALL_BUILD.dir
+/Users/zhoushiwei/Dropbox/dlib-18.10/build/CMakeFiles/ZERO_CHECK.dir
+/Users/zhoushiwei/Dropbox/dlib-18.10/build/CMakeFiles/dlib.dir
